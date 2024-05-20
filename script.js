@@ -192,10 +192,10 @@ function showResults() {
 
     if (score < 750) {
         resultsText.innerHTML += '<br>Sorry, you failed the test.';
-        resultGif.src = 'fail.gif';
+        resultGif.src = 'images/fail.gif';
     } else {
         resultsText.innerHTML += '<br>Congratulations, you passed the test!';
-        resultGif.src = 'pass.gif';
+        resultGif.src = 'images/pass.gif';
     }
 
     quizContainer.style.display = 'none';
