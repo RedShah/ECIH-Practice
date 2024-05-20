@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Test Realm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="start-container" class="container">
+        <img id="logo" src="logo.gif" alt="Logo">
+        <button id="start-button" class="action-button">Begin</button>
+    </div>
+    <div id="quiz-container" class="container" style="display:none;">
+        <div id="quiz-content">
+            <div id="quiz"></div>
+        </div>
+        <div id="controls">
+            <button id="option-a" class="control-button">A</button>
+            <button id="option-b" class="control-button">B</button>
+            <button id="option-c" class="control-button">C</button>
+            <button id="option-d" class="control-button">D</button>
+            <button id="next-button" class="control-button" style="display:none;">Next Question</button>
+            <button id="submit-button" class="control-button" style="display:none;">Submit Quiz</button>
+        </div>
+    </div>
+    <div id="results-container" class="container" style="display:none;">
+        <img id="result-gif" class="result-gif" src="" alt="Result">
+        <div id="results"></div>
+        <button id="retry-button" class="action-button">Try Again</button>
+        <button id="review-button" class="action-button">Review Answers</button>
+        <button id="end-review-button" class="action-button" style="display:none;">End Review</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
